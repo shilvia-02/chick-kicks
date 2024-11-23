@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>
+Home</title>
+<style>
+*{
+margin:0;
+padding:0;
+font-family:Century Gothic;
+}
+.main{
+width:100%;
+height:100%;
+position:relative;
+overflow:hidden;
+background:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(bg4.jpg);
+background-size:cover;
+background-position:center;
+}
+nav{
+}
+.logo{
+flex-basis:20%;
+margin-left:550px;
+margin-bottom:200px;
+}
+.logo img{
+width:250px;
+margin-top:-50px;
+}
+.nav-links{
+flex:2;
+text-align:center;
+margin-right:-50px;
+margin-top:-250px;
+}
+.nav-links ul li{
+display:inline-block;
+margin:0 20px;
+position:relative;
+}
+.nav-links ul li a{
+color:#fff;
+text-decoration:none;
+}
+.nav-links ul li::after{
+content:'';
+height:3px;
+width:0;
+background:white;
+position:absolute;
+left:0;
+bottom:-10px;
+transition:0.5s;
+}
+.nav-links ul li:hover::after{
+width:100%;
+}
+h1{
+color:#fff;
+margin-left:40%;
+font-size:50px;
+margin-top:50px;
+}
+.box{
+background:transparent;
+width:50%;
+margin-bottom:5%;
+margin-left:25%;
+padding:20px 4px 20px 20px;
+border-radius:5px;
+}
+
+.box h2{
+color:#fff;
+font-size:30px;
+font-weight:bold;
+margin-top:20px;
+margin-bottom:20px;
+}
+.box p{
+color:white;
+text-align:left;
+font-size:20px;
+margin-bottom:30px;
+margin-right:50px;
+}
+</style>
+<body>
+<div class ="main">
+<nav>
+<div class="logo">
+<img src = "log1.png"></div>
+<div class="nav-links">
+<ul>
+<li><a href="home.html">Home</a>
+<li><a href="shopbycat.html">Shop by Category</a>
+<li><a href="shopbydes.html">Shop by Design</a>
+<li><a href="about_us.html">About</a>
+<li><a href="contact_us.html">Contact</a>
+<li><a href="login1.html">Log in</a>
+</ul>
+</nav>
+<h1>About Us</h1>
+<div class="box">
+<p>This is Chic Kicks. Here, we provide innovative additions to your wardrobe at an 
+affordable price. As our new launch, we are introducing new collections. 
+Shoes, that acts as an armour to protect you from your daily water-based stains
+ such as coffee, cold drinks, ketchup spills etc from ruining your shoe and your day.
+ Shoes are just the beginning, we have also planned to introduce odour free, 
+mosquito repellent garments in the future. So get ready to add fashion with innovation 
+to your wardrobe.
+</p></div></div></div>
+</body>
+</html>
